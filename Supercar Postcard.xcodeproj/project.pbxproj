@@ -415,6 +415,7 @@
 				84AAE3E81A359EBE00E5B64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AAE3E91A359EBE00E5B64C /* Build configuration list for PBXNativeTarget "Supercar PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				84AAE3EB1A359EBE00E5B64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
