@@ -28,19 +28,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-        //this is cool if it works man
+        //Actions for the message label
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
+        //Actions for the name label
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
         nameLabel.textColor = UIColor.blueColor()
-        
+        //Resetting the message text field value to zero and closing down the keyboard
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
+        //Resetting the name text field value to zero and closing down the keyborrd
         enterNameTextField.text = ""
         enterNameTextField.resignFirstResponder()
-        
+        //Chainging the message on the button
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
